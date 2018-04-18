@@ -1,0 +1,47 @@
+body {
+  background-color:#000000;
+}
+
+.card {
+  width:650px;
+}
+
+#main {
+  height:100vh;
+  width:100%;
+}
+
+#calculator {
+  width:650px;
+  height:450px;
+  border:solid;
+  border-width:2px;
+  border-color:#fff;
+}
+
+input[type=number] {
+  text-align:right;
+}
+
+#lcd {
+  margin-top:10px;
+  background: #fff;
+  color: #000;
+  height: 40px;
+  line-height: 40px;
+}
+
+.col.d-inline-flex {
+  width:675px;
+}
+
+.row.num-row {
+  height:95px;
+  border:solid;
+  border-width:1px;
+  border-color:#fff;
+}
+
+.custom-button {
+  width:95px;
+}

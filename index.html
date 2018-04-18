@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator-app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <section class="d-flex" id="main">
+        <div class="container m-auto" id="calculator">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div class="form-group"><div id="lcd" value=0></div></div>
+                    </form>
+                </div>
+            </div>
+            <div class="row num-row">
+                <div class="col m-auto text-center num-col"><button id="7" class="btn btn-secondary custom-button" type="button" value="7">7</button></div>
+                <div class="col m-auto text-center num-col"><button class="btn btn-secondary custom-button" type="button" value="8">8</button></div>
+                <div class="col m-auto text-center num-col"><button class="btn btn-secondary custom-button" type="button" value="9">9</button></div>
+                <div class="col m-auto text-center num-col"><button class="btn btn-dark custom-button" type="button" value="*">X</button></div>
+            </div>
+            <div class="row num-row">
+                <div class="col m-auto text-center"><button class="btn btn-secondary custom-button" type="button" value="4">4</button></div>
+                <div class="col m-auto text-center"><button class="btn btn-secondary custom-button" type="button" value=5>5</button></div>
+                <div class="col m-auto text-center"><button class="btn btn-secondary custom-button" type="button" value=6>6</button></div>
+                <div class="col m-auto text-center"><button class="btn btn-dark custom-button" type="button" value="-">-</button></div>
+            </div>
+            <div class="row num-row">
+                <div class="col m-auto text-center"><button class="btn btn-secondary custom-button" type="button" value="1">1</button></div>
+                <div class="col m-auto text-center"><button class="btn btn-secondary custom-button" type="button" value="2">2</button></div>
+                <div class="col m-auto text-center"><button class="btn btn-secondary custom-button" type="button" value="3">3</button></div>
+                <div class="col m-auto text-center"><button class="btn btn-dark custom-button" type="button" value="+">+</button></div>
+            </div>
+            <div class="row num-row">
+                <div class="col m-auto text-center"><button class="btn btn-dark btn-block m-auto custom-button" type="button" value="c">C</button></div>
+                <div class="col m-auto text-center"><button class="btn btn-secondary custom-button" type="button" value="0">0</button></div>
+                <div class="col m-auto text-center"><button class="btn btn-dark custom-button" type="button" value="=">=</button></div>
+                <div class="col m-auto text-center"><button class="btn btn-dark custom-button" type="button" value="/">/</button></div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
